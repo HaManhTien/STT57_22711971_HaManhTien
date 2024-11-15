@@ -1,0 +1,190 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/* Định dạng hình ảnh logo */
+.logo-img {
+    width: 50px; /* Đặt chiều rộng logo */
+    height: 50px; /* Đặt chiều cao logo */
+    object-fit: cover; /* Đảm bảo logo không bị méo */
+    border-radius: 50%; /* Tùy chọn: nếu muốn logo tròn */
+}
+
+/* Định dạng văn bản kèm logo */
+header h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.banner {
+    background-image: url('/img/banner.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.banner h2 {
+    font-size: 3rem; /* Kích thước chữ lớn */
+    font-weight: bold; /* Chữ đậm */
+    color: white; /* Màu chữ */
+    text-shadow: 2px 2px 4px black; /* Tạo viền đen */
+}
+
+.featured-products .card {
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-us {
+    text-align: center;
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    color: #555;
+    border-left: 3px solid #007bff;
+    padding-left: 1rem;
+}
+/* Định dạng logo */
+.logo-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+/* Định dạng thanh tìm kiếm */
+.search-bar input[type="text"] {
+    border-radius: 5px;
+}
+
+/* Định dạng danh mục sản phẩm */
+.category-nav .nav-link {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    text-transform: capitalize;
+}
+
+/* Định dạng sản phẩm */
+.products .card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.products .card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+/* Định dạng logo */
+.logo-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+/* Định dạng banner */
+.about-banner {
+    background-image: url('/img/banner2.jpg'); /* Đường dẫn đến hình ảnh banner */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+/* Định dạng hình ảnh đội ngũ nhân sự */
+.team-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Định dạng banner giỏ hàng */
+.cart-banner {
+    background-image: url('../images/cart-banner.jpg'); /* Đường dẫn ảnh banner */
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Định dạng ảnh sản phẩm trong bảng */
+.cart-img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Định dạng nút */
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 0.875rem;
+}
+/* Định dạng banner thanh toán */
+.checkout-banner {
+    background-image: url('../images/checkout-banner.jpg'); /* Đường dẫn ảnh banner */
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Định dạng nút */
+button[type="submit"] {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+}
+button[type="submit"]:hover {
+    background-color: #218838;
+    cursor: pointer;
+}
+/* Định dạng banner */
+.product-banner {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Định dạng sản phẩm */
+.product-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Định dạng sản phẩm liên quan */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
